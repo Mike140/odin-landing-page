@@ -193,3 +193,17 @@ img {
     border-radius: 6px;
     width: 135px;
 }
+
+.footer {
+    background-color: #1F2937;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    color: #E5E7EB;
+    font-family: Montserrat Regular,Montserrat,sans-serif;
+    font-size: 14px;
+}
