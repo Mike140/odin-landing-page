@@ -119,3 +119,26 @@ img {
     transition: .5s ease;
 }
 
+.quote-background {
+    background-color: #E5E7EB;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    max-width: 750px;
+}
+
+.ian {
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 70px;
+}
