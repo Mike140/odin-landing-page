@@ -69,8 +69,53 @@ button {
     width: 100px;
 }
 
-img {
+#hero-image {
     width: 500px;
     height: 250px;
     margin-bottom: 50px;
+    border-radius: 0;
 }
+
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.text {
+    font-size: 18px;
+    color: rgb(42, 41, 41);
+    text-align: center;
+    margin-top: 10px;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+    border-radius: 12px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 70px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.border img {
+    transition: .5s ease;
+}
+
+.border img:hover {
+    box-shadow: 0 0 0 8px #1F2937;
+    transition: .5s ease;
+}
+
